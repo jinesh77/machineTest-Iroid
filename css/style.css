@@ -14,6 +14,11 @@ body {
 
 
 /* <!--=====================section-1========================= --> */
+.logo-img {
+	width: auto;
+	height: 30px !important;
+}
+
 .button-logo {
 	background: #5134ff;
 	color: #fff;
@@ -73,11 +78,6 @@ body {
 
 .fixed-menu.scrolled {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.fa-star {
-	color: blue;
-	font-size: 24px;
 }
 
 .app-name {
@@ -358,6 +358,14 @@ hr {
 	.below-card {
 		padding-top: 0px !important;
 	}
+
+	.heading-wrap h1 {
+		font-size: 44px;
+	}
+
+	.fixed-menu {
+		box-shadow: 0px 0px 2px 2px #ececec;
+	}
 }
 
 
@@ -365,11 +373,6 @@ hr {
 	.navbar-light .navbar-nav .nav-link {
 		margin-right: 20px;
 		box-shadow: none !important;
-	}
-
-	.heading-wrap h1 {
-		font-size: 36px;
-		margin-bottom: 30px;
 	}
 
 	.image-card {
