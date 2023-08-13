@@ -204,6 +204,14 @@ i.fas.fa-circle-check {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.moveup {
+	transition: transform 0.3s ease-in-out;
+}
+
+.moveup:hover {
+	transform: translateY(-10px);
+}
+
 .small-margin-down {
 	margin-bottom: 20px;
 }
@@ -346,10 +354,10 @@ hr {
 
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-.below-card {
-    padding-top: 0px !important; 
-}
+@media (min-width: 768px) and (max-width: 991px) {
+	.below-card {
+		padding-top: 0px !important;
+	}
 }
 
 
